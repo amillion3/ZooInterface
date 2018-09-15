@@ -1,10 +1,11 @@
 ﻿using System;
+
 using System.Collections.Generic;
 using System.Text;
 
 namespace ZooInterface.Invertebrates
 {
-    interface IInvertebrates
+    public interface IInvertebrates
     {
         bool HasBackbone { get; }
         bool HasExoSkeleton { get; }
